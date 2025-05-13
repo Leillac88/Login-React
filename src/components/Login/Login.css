@@ -38,8 +38,16 @@
 .login-header h1 {
     color: #c792ea;
     font-weight: 600;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
+
+/* .subtitle {
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    color: #aaa;
+    font-size: 14px;
+} */
 
 .login-form {
     display: flex;
