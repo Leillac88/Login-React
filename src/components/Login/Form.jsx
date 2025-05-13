@@ -4,8 +4,12 @@ function Form() {
   return (
     <main>
       <form className="login-form">
-        <input type="email" placeholder="Email" required />
-        <input type="password" placeholder="Senha" required />
+        <span className='email'>E-mail:</span>
+        <input type="email" placeholder="seuemail@email.com" required />
+        <span className='small'>Digite o e-mail associado à sua conta.</span>
+        <span className='senha'>Senha:</span>
+        <input type="password" placeholder="******" required />
+        <span className='small'>Sua senha deve ter, pelo menos 6 caracteres.</span>
 
         <div className="login-options">
           <label>
