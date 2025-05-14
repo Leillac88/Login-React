@@ -29,25 +29,24 @@
     gap: 24px;
 }
 
-.login-header {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
 .login-header h1 {
     color: #c792ea;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
 }
 
-/* .subtitle {
+.subtitle {
     justify-content:center;
     align-items: center;
     display: flex;
     color: #aaa;
     font-size: 14px;
-} */
+    margin-bottom: 16px;
+}
 
 .login-form {
     display: flex;
@@ -117,7 +116,7 @@ button:hover {
 }
 
 .login-footer {
-    margin-top: 8px;
+    margin-top: 2px;
     font-size: 0.9rem;
     justify-content: center;
     align-items: center;
