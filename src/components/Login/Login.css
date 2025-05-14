@@ -66,12 +66,14 @@
 .email {
     font-size: 14px;
     margin-top: -12px;
+    margin-bottom: -8px;
     color: #aaa;
 }
 
 .senha {
     font-size: 14px;
     color: #aaa;
+    margin-bottom: -8px;
 }
 
 .small {
